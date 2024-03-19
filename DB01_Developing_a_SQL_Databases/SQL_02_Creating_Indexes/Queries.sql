@@ -3,6 +3,13 @@
   Demonstrate how to create indexes based on the given tables, queries
 **************************************************************/
 
+/*** create a nonclustered index on FactInternetSales table of AdventureWorksDW2022 ***/
+USE AdventureWorksDW2022;
+GO
+
+create NONCLUSTERED INDEX FactInternetSales_NC_ProductKey
+ON FactInternetSales (ProductKey);
+GO
 
 
 
@@ -12,7 +19,14 @@
 
 **************************************************************/
 
+/*** create a non-clustered index with OrderDateKey and DueDateKey as the key columns from the FactInternetSales table.  ***/
 
+USE AdventureWorksDW2022;
+GO
+
+create NONCLUSTERED INDEX FactInternetSales_NC_OrderDatekey_DueDatekey
+ON FactInternetSales (OrderDateKey, DueDateKey)
+GO
 
 
 /**************************************************************
@@ -21,13 +35,17 @@
 
 **************************************************************/
 
+/*** create an index with the key column as FirstName and include the non-key columns HireDate, BirthDate, and Gender. ***/
+
+USE AdventureWorksDW2022;
+GO
+
+create NONCLUSTERED INDEX DimEmployee_NCNK01
+ON DimEmployee (FirstName)
+INCLUDE (HireDate, BirthDate, Gender);
+GO
 
 
-/**************************************************************
-  OBJECTIVE 04:
-  Demonstrate how to create an index based on the query execution plan
-
-**************************************************************/
 
 
 
