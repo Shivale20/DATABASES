@@ -21,6 +21,10 @@ Below is the folder structure of the current project:
 
     - [SQL_05_Maintaining_Columnstore_Indexes](./DB01_Developing_a_SQL_Databases/SQL_05_Maintaining_Columnstore_Indexes)
 
+    - [SQL_06_Creating_Constraints](./DB01_Developing_a_SQL_Databases/SQL_06_Creating_Constraints)
+
+    - [SQL_07_Effects_of_constraint](./DB01_Developing_a_SQL_Databases/SQL_07_Effects_of_constraint)
+
 
 
 
