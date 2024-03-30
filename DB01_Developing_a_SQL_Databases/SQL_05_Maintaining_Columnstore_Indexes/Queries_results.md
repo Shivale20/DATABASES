@@ -75,7 +75,10 @@
       Index Depth: The index depth refers to the number of levels in the index structure. A depth of 0 typically means that the index is now effectively a single-level index, meaning it's been heavily compacted and optimized. This reduction in depth suggests improved query performance as the index traversal becomes more efficient.
 
       Page Count: The reduction in page count to 0 means that the index's physical storage has been compacted and optimized, possibly resulting in the removal of empty or unused pages. This optimization can lead to better storage efficiency and potentially faster data retrieval operations.
-
+**BEFORE REORGANIZE**
+![Before Reorganize](image-3.png)
+**AFTER REORGANIZE**
+![After Reorganize](image-4.png)
 
 # OBJECTIVE 02:
 

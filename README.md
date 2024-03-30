@@ -25,6 +25,8 @@ Below is the folder structure of the current project:
 
     - [SQL_07_Effects_of_constraint](./DB01_Developing_a_SQL_Databases/SQL_07_Effects_of_constraint)
 
+    - [SQL_08_Creating_Stored_Procedures](./DB01_Developing_a_SQL_Databases/SQL_08_Creating_Stored_Procedures)
+
 
 
 
