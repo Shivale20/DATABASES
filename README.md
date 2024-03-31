@@ -27,6 +27,8 @@ Below is the folder structure of the current project:
 
     - [SQL_08_Creating_Stored_Procedures](./DB01_Developing_a_SQL_Databases/SQL_08_Creating_Stored_Procedures)
 
+    - [SQL_09_Creating_Triggers](./DB01_Developing_a_SQL_Databases/SQL_09_Creating_Triggers)
+
 
 
 
