@@ -193,3 +193,88 @@ GO
 EXECUTE Sales.uspGetCurrencyInformationByImportedcsvList 'C:\Users\manish.shivale\Documents\Projects\DATABASES\DB01_Developing_a_SQL_Databases\SQL_08_Creating_Stored_Procedures\CurrencyCode.csv';
 GO 
 
+/*
+- open a try block 
+- create a staging table with columns that are being filled.
+- bulk insert data into staging table for their respective column using dynamic sql
+- create a dynamic sql to get the columns from staging table
+- store the columns to a input parameter to next query
+- run the query using dynamic sql and using input parameter.
+- close the try block
+- catch any error message
+- delete the staging table
+*/
+
+/*
+Problem I am solving:
+
+I have table of data that will be fed into a stored procedure as 
+input parameter 
+
+what would be the source of table?
+1. from some previous internal query?
+2. from external file
+*/
+
+/*
+Input1: table: Col1: FromCurrencyCode ; Col2: ToCurrencyCode
+Input2: scalar parameter: CurrencyRateDate
+
+Output table: 
+    Col1: CurrencyRateID, 
+    Col2: FromCurrencyCode
+    Col3: ToCurrencyCode
+    Col4: AverageRate
+    Col5: EndofDayRate
+    Col6: CurrencyRateDate
+*/
+
+/*
+Logic:
+Batch1:
+1. Define a user-defined table type with 2 cols.
+    1. FromCurrencyCode
+    2. ToCurrencyCode
+
+Batch 2:
+1. Create procedure- pass 2 parameters:
+    1. user-defined table as READONLY
+    2. conditional criteria parameter i.e CurrencyRateDate
+2. Do the select query using both parameters to get output table
+end of batch
+
+Batch 3:
+1. Declare TVP variable and Populate cols of table parameter either internally or through external source
+2. Call stored procedure and pass TVP variable and another input parameter.
+
+*/
+-- Batch 1
+USE AW2022;
+GO
+CREATE TYPE CurrencyCodeTableType AS TABLE ( 
+    FromCurrencyCode nchar (3), ToCurrencyCode nchar (3))
+GO
+
+-- Batch 2
+USE AW2022;
+GO
+CREATE PROCEDURE Sales.uspGetCurrencyInformationUDT
+    @CurrencyCodeInputTable as CurrencyCodeTableType READONLY,
+    @CurrencyRateDate DATE 
+AS 
+SELECT c.CurrencyRateID, c.FromCurrencyCode, c.ToCurrencyCode, c.AverageRate, c.EndOfDayRate, c.CurrencyRateDate
+FROM Sales.CurrencyRate c 
+JOIN @CurrencyCodeInputTable t 
+ON t.FromCurrencyCode = c.FromCurrencyCode AND (t.ToCurrencyCode = c.ToCurrencyCode)
+WHERE c.CurrencyRateDate = @CurrencyRateDate;
+GO 
+
+-- Batch 3:
+DECLARE @CurrencyCodeTableVariable as CurrencyCodeTableType
+INSERT INTO @CurrencyCodeTableVariable (FromCurrencyCode, ToCurrencyCode)
+VALUES ('USD', 'AUD'), ('USD', 'GBP'), ('USD', 'CAD'), ('USD', 'MXN');
+
+-- Call the procedure with parameters
+EXEC Sales.uspGetCurrencyInformationUDT @CurrencyCodeInputTable = @CurrencyCodeTableVariable, 
+@CurrencyRateDate = '2011-07-14';
+
