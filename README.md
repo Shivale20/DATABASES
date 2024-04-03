@@ -31,6 +31,8 @@ Below is the folder structure of the current project:
 
     - [SQL_10_Creating_Functions](./DB01_Developing_a_SQL_Databases/SQL_10_Creating_Functions)
 
+    - [SQL_11_Working_With_Hierarchies](./DB01_Developing_a_SQL_Databases/SQL_11_Working_With_Hierarchies)
+
 
 
 
