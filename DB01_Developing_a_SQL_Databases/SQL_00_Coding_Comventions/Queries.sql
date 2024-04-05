@@ -26,9 +26,3 @@ conclusion:--
 
 ------------------------------------------------------------
 
--- Naming Conventions:
-
--- Stored Procedure Name: sp_Count_Employees or sp_Filter_ or sp_Get_
--- Stored Procedure variable name: @sp_Employees_count
--- Triggers Name: trg_Table_Safety
--- Triggers variable name: @trg_
