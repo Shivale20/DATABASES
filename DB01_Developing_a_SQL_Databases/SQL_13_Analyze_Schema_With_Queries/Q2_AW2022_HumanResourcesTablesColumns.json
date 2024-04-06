@@ -1,0 +1,26 @@
+[
+  {
+    "TABLE_NAME": "Shift",
+    "COLUMN_NAMES": " ShiftID, Name, StartTime, EndTime, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "Department",
+    "COLUMN_NAMES": " DepartmentID, Name, GroupName, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "Employee",
+    "COLUMN_NAMES": " BusinessEntityID, NationalIDNumber, LoginID, OrganizationNode, OrganizationLevel, JobTitle, BirthDate, MaritalStatus, Gender, HireDate, SalariedFlag, VacationHours, SickLeaveHours, CurrentFlag, rowguid, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "EmployeeDepartmentHistory",
+    "COLUMN_NAMES": " BusinessEntityID, DepartmentID, ShiftID, StartDate, EndDate, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "EmployeePayHistory",
+    "COLUMN_NAMES": " BusinessEntityID, RateChangeDate, Rate, PayFrequency, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "JobCandidate",
+    "COLUMN_NAMES": " JobCandidateID, BusinessEntityID, Resume, ModifiedDate"
+  }
+]

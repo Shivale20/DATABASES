@@ -1,0 +1,26 @@
+[
+  {
+    "TABLE_SCHEMA": "dbo",
+    "TABLES_LIST": " AWBuildVersion, DatabaseLog, ErrorLog"
+  },
+  {
+    "TABLE_SCHEMA": "HumanResources",
+    "TABLES_LIST": " Department, Employee, EmployeeDepartmentHistory, EmployeePayHistory, JobCandidate, Shift"
+  },
+  {
+    "TABLE_SCHEMA": "Person",
+    "TABLES_LIST": " Address, AddressType, BusinessEntity, BusinessEntityAddress, BusinessEntityContact, ContactType, CountryRegion, EmailAddress, Password, Person, PersonPhone, PhoneNumberType, StateProvince"
+  },
+  {
+    "TABLE_SCHEMA": "Production",
+    "TABLES_LIST": " BillOfMaterials, Culture, Document, Illustration, Location, Product, ProductCategory, ProductCostHistory, ProductDescription, ProductDocument, ProductInventory, ProductListPriceHistory, ProductModel, ProductModelIllustration, ProductModelProductDescriptionCulture, ProductPhoto, ProductProductPhoto, ProductReview, ProductSubcategory, ScrapReason, TransactionHistory, TransactionHistoryArchive, UnitMeasure, WorkOrder, WorkOrderRouting"
+  },
+  {
+    "TABLE_SCHEMA": "Purchasing",
+    "TABLES_LIST": " ProductVendor, PurchaseOrderDetail, PurchaseOrderHeader, ShipMethod, Vendor"
+  },
+  {
+    "TABLE_SCHEMA": "Sales",
+    "TABLES_LIST": " CountryRegionCurrency, CreditCard, Currency, CurrencyRate, Customer, PersonCreditCard, SalesOrderDetail, SalesOrderHeader, SalesOrderHeaderSalesReason, SalesPerson, SalesPersonQuotaHistory, SalesReason, SalesTaxRate, SalesTerritory, SalesTerritoryHistory, ShoppingCartItem, SpecialOffer, SpecialOfferProduct, Store"
+  }
+]

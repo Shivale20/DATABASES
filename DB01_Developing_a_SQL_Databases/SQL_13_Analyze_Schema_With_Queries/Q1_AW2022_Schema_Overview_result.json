@@ -1,0 +1,26 @@
+[
+  {
+    "TableSchema": "dbo",
+    "ColumnList": "dbo.DatabaseLog, dbo.ErrorLog, dbo.AWBuildVersion"
+  },
+  {
+    "TableSchema": "HumanResources",
+    "ColumnList": "HumanResources.Shift, HumanResources.Department, HumanResources.Employee, HumanResources.EmployeeDepartmentHistory, HumanResources.EmployeePayHistory, HumanResources.JobCandidate"
+  },
+  {
+    "TableSchema": "Person",
+    "ColumnList": "Person.PersonPhone, Person.PhoneNumberType, Person.Address, Person.AddressType, Person.StateProvince, Person.BusinessEntity, Person.BusinessEntityAddress, Person.BusinessEntityContact, Person.ContactType, Person.CountryRegion, Person.EmailAddress, Person.Password, Person.Person"
+  },
+  {
+    "TableSchema": "Production",
+    "ColumnList": "Production.Product, Production.ScrapReason, Production.ProductCategory, Production.ProductCostHistory, Production.ProductDescription, Production.ProductDocument, Production.ProductInventory, Production.ProductListPriceHistory, Production.ProductModel, Production.ProductModelIllustration, Production.ProductModelProductDescriptionCulture, Production.BillOfMaterials, Production.ProductPhoto, Production.ProductProductPhoto, Production.TransactionHistory, Production.ProductReview, Production.TransactionHistoryArchive, Production.ProductSubcategory, Production.UnitMeasure, Production.WorkOrder, Production.Culture, Production.WorkOrderRouting, Production.Document, Production.Illustration, Production.Location"
+  },
+  {
+    "TableSchema": "Purchasing",
+    "ColumnList": "Purchasing.ShipMethod, Purchasing.ProductVendor, Purchasing.Vendor, Purchasing.PurchaseOrderDetail, Purchasing.PurchaseOrderHeader"
+  },
+  {
+    "TableSchema": "Sales",
+    "ColumnList": "Sales.SalesTaxRate, Sales.PersonCreditCard, Sales.SalesTerritory, Sales.SalesTerritoryHistory, Sales.ShoppingCartItem, Sales.SpecialOffer, Sales.SpecialOfferProduct, Sales.Store, Sales.CountryRegionCurrency, Sales.CreditCard, Sales.Currency, Sales.CurrencyRate, Sales.Customer, Sales.SalesOrderDetail, Sales.SalesOrderHeader, Sales.SalesOrderHeaderSalesReason, Sales.SalesPerson, Sales.SalesPersonQuotaHistory, Sales.SalesReason"
+  }
+]
