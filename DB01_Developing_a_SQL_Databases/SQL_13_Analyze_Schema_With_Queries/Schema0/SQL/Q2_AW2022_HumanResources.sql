@@ -94,3 +94,7 @@ Recommendation:
 2. Consider using Approach 2 unless there are specific requirements that necessitate the use of a cursor.
 */
 
+USE AW2022;
+GO 
+SELECT *
+FROM HumanResources.Shift

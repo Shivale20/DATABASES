@@ -33,6 +33,14 @@ Below is the folder structure of the current project:
 
     - [SQL_11_Working_With_Hierarchies](./DB01_Developing_a_SQL_Databases/SQL_11_Working_With_Hierarchies)
 
+    - [SQL_12_Windowing_And_Ranking](./DB01_Developing_a_SQL_Databases/SQL_12_Windowing_And_Ranking)
+
+    -[SQL_13_Analyze_Schema_With_Queries](./DB01_Developing_a_SQL_Databases/SQL_13_Analyze_Schema_With_Queries)
+
+      - [Schema0](./DB01_Developing_a_SQL_Databases/SQL_13_Analyze_Schema_With_Queries/Schema0)
+
+      - [Schema1_HumanResources](./DB01_Developing_a_SQL_Databases/SQL_13_Analyze_Schema_With_Queries/Schema1_HumanResources)
+
 
 
 
