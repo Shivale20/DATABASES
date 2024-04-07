@@ -35,7 +35,7 @@ Below is the folder structure of the current project:
 
     - [SQL_12_Windowing_And_Ranking](./DB01_Developing_a_SQL_Databases/SQL_12_Windowing_And_Ranking)
 
-    -[SQL_13_Analyze_Schema_With_Queries](./DB01_Developing_a_SQL_Databases/SQL_13_Analyze_Schema_With_Queries)
+    - [SQL_13_Analyze_Schema_With_Queries](./DB01_Developing_a_SQL_Databases/SQL_13_Analyze_Schema_With_Queries)
 
       - [Schema0](./DB01_Developing_a_SQL_Databases/SQL_13_Analyze_Schema_With_Queries/Schema0)
 
