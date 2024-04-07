@@ -9,37 +9,37 @@ Below is the folder structure of the current project:
 
 - [DATABASES](/DATABASES)
 
-  - [DB01_Developing_a_SQL_Databases](./DB01_Developing_a_SQL_Databases)
+  - [DB01_Microsoft_SQL_Server_2022](./DB01_Microsoft_SQL_Server_2022)
 
-    - [SQL_01_Designing_a_Relational_Database_Schema](./DB01_Developing_a_SQL_Databases/SQL_01_Designing_a_Relational_Database_Schema)
+    - [SQL_01_Designing_a_Relational_Database_Schema](./DB01_Microsoft_SQL_Server_2022/SQL_01_Designing_a_Relational_Database_Schema)
 
-    - [SQL_02_Creating_Indexes](./DB01_Developing_a_SQL_Databases/SQL_02_Creating_Indexes)
+    - [SQL_02_Creating_Indexes](./DB01_Microsoft_SQL_Server_2022/SQL_02_Creating_Indexes)
 
-    - [SQL_03_Best_Practices_in_Index_Creation](./DB01_Developing_a_SQL_Databases/SQL_03_Best_Practices_in_Index_Creation)
+    - [SQL_03_Best_Practices_in_Index_Creation](./DB01_Microsoft_SQL_Server_2022/SQL_03_Best_Practices_in_Index_Creation)
 
-    - [SQL_04_Creating_Columnstore_Indexes](./DB01_Developing_a_SQL_Databases/SQL_04_Creating_Columnstore_Indexes)
+    - [SQL_04_Creating_Columnstore_Indexes](./DB01_Microsoft_SQL_Server_2022/SQL_04_Creating_Columnstore_Indexes)
 
-    - [SQL_05_Maintaining_Columnstore_Indexes](./DB01_Developing_a_SQL_Databases/SQL_05_Maintaining_Columnstore_Indexes)
+    - [SQL_05_Maintaining_Columnstore_Indexes](./DB01_Microsoft_SQL_Server_2022/SQL_05_Maintaining_Columnstore_Indexes)
 
-    - [SQL_06_Creating_Constraints](./DB01_Developing_a_SQL_Databases/SQL_06_Creating_Constraints)
+    - [SQL_06_Creating_Constraints](./DB01_Microsoft_SQL_Server_2022/SQL_06_Creating_Constraints)
 
-    - [SQL_07_Effects_of_constraint](./DB01_Developing_a_SQL_Databases/SQL_07_Effects_of_constraint)
+    - [SQL_07_Effects_of_constraint](./DB01_Microsoft_SQL_Server_2022/SQL_07_Effects_of_constraint)
 
-    - [SQL_08_Creating_Stored_Procedures](./DB01_Developing_a_SQL_Databases/SQL_08_Creating_Stored_Procedures)
+    - [SQL_08_Creating_Stored_Procedures](./DB01_Microsoft_SQL_Server_2022/SQL_08_Creating_Stored_Procedures)
 
-    - [SQL_09_Creating_Triggers](./DB01_Developing_a_SQL_Databases/SQL_09_Creating_Triggers)
+    - [SQL_09_Creating_Triggers](./DB01_Microsoft_SQL_Server_2022/SQL_09_Creating_Triggers)
 
-    - [SQL_10_Creating_Functions](./DB01_Developing_a_SQL_Databases/SQL_10_Creating_Functions)
+    - [SQL_10_Creating_Functions](./DB01_Microsoft_SQL_Server_2022/SQL_10_Creating_Functions)
 
-    - [SQL_11_Working_With_Hierarchies](./DB01_Developing_a_SQL_Databases/SQL_11_Working_With_Hierarchies)
+    - [SQL_11_Working_With_Hierarchies](./DB01_Microsoft_SQL_Server_2022/SQL_11_Working_With_Hierarchies)
 
-    - [SQL_12_Windowing_And_Ranking](./DB01_Developing_a_SQL_Databases/SQL_12_Windowing_And_Ranking)
+    - [SQL_12_Windowing_And_Ranking](./DB01_Microsoft_SQL_Server_2022/SQL_12_Windowing_And_Ranking)
 
-    - [SQL_13_Analyze_Schema_With_Queries](./DB01_Developing_a_SQL_Databases/SQL_13_Analyze_Schema_With_Queries)
+    - [SQL_13_Analyze_Schema_With_Queries](./DB01_Microsoft_SQL_Server_2022/SQL_13_Analyze_Schema_With_Queries)
 
-      - [Schema0](./DB01_Developing_a_SQL_Databases/SQL_13_Analyze_Schema_With_Queries/Schema0)
+      - [Schema0](./DB01_Microsoft_SQL_Server_2022/SQL_13_Analyze_Schema_With_Queries/Schema0)
 
-      - [Schema1_HumanResources](./DB01_Developing_a_SQL_Databases/SQL_13_Analyze_Schema_With_Queries/Schema1_HumanResources)
+      - [Schema1_HumanResources](./DB01_Microsoft_SQL_Server_2022/SQL_13_Analyze_Schema_With_Queries/Schema1_HumanResources)
 
 
 
