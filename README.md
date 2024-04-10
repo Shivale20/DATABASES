@@ -43,6 +43,7 @@ Below is the folder structure of the current project:
 
     - [SQL_14_DataTypes](./DB01_Microsoft_SQL_Server_2022/SQL_14_DataTypes)
 
+  - [DB02_SQL_Server_Analysis_Services_2022](./DB02_SQL_Server_Analysis_Services_2022)
 
 
 
