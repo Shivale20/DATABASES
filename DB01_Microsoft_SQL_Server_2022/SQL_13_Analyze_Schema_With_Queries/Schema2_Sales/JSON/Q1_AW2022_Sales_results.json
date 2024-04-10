@@ -1,0 +1,78 @@
+[
+  {
+    "TABLE_NAME": "SalesTaxRate",
+    "COLUMN_NAMES": " SalesTaxRateID, StateProvinceID, TaxType, TaxRate, Name, rowguid, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "PersonCreditCard",
+    "COLUMN_NAMES": " BusinessEntityID, CreditCardID, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "SalesTerritory",
+    "COLUMN_NAMES": " TerritoryID, Name, CountryRegionCode, Group, SalesYTD, SalesLastYear, CostYTD, CostLastYear, rowguid, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "SalesTerritoryHistory",
+    "COLUMN_NAMES": " BusinessEntityID, TerritoryID, StartDate, EndDate, rowguid, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "ShoppingCartItem",
+    "COLUMN_NAMES": " ShoppingCartItemID, ShoppingCartID, Quantity, ProductID, DateCreated, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "SpecialOffer",
+    "COLUMN_NAMES": " SpecialOfferID, Description, DiscountPct, Type, Category, StartDate, EndDate, MinQty, MaxQty, rowguid, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "SpecialOfferProduct",
+    "COLUMN_NAMES": " SpecialOfferID, ProductID, rowguid, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "Store",
+    "COLUMN_NAMES": " BusinessEntityID, Name, SalesPersonID, Demographics, rowguid, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "CountryRegionCurrency",
+    "COLUMN_NAMES": " CountryRegionCode, CurrencyCode, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "CreditCard",
+    "COLUMN_NAMES": " CreditCardID, CardType, CardNumber, ExpMonth, ExpYear, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "Currency",
+    "COLUMN_NAMES": " CurrencyCode, Name, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "CurrencyRate",
+    "COLUMN_NAMES": " CurrencyRateID, CurrencyRateDate, FromCurrencyCode, ToCurrencyCode, AverageRate, EndOfDayRate, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "Customer",
+    "COLUMN_NAMES": " CustomerID, PersonID, StoreID, TerritoryID, AccountNumber, rowguid, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "SalesOrderDetail",
+    "COLUMN_NAMES": " SalesOrderID, SalesOrderDetailID, CarrierTrackingNumber, OrderQty, ProductID, SpecialOfferID, UnitPrice, UnitPriceDiscount, LineTotal, rowguid, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "SalesOrderHeader",
+    "COLUMN_NAMES": " SalesOrderID, RevisionNumber, OrderDate, DueDate, ShipDate, Status, OnlineOrderFlag, SalesOrderNumber, PurchaseOrderNumber, AccountNumber, CustomerID, SalesPersonID, TerritoryID, BillToAddressID, ShipToAddressID, ShipMethodID, CreditCardID, CreditCardApprovalCode, CurrencyRateID, SubTotal, TaxAmt, Freight, TotalDue, Comment, rowguid, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "SalesOrderHeaderSalesReason",
+    "COLUMN_NAMES": " SalesOrderID, SalesReasonID, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "SalesPerson",
+    "COLUMN_NAMES": " BusinessEntityID, TerritoryID, SalesQuota, Bonus, CommissionPct, SalesYTD, SalesLastYear, rowguid, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "SalesPersonQuotaHistory",
+    "COLUMN_NAMES": " BusinessEntityID, QuotaDate, SalesQuota, rowguid, ModifiedDate"
+  },
+  {
+    "TABLE_NAME": "SalesReason",
+    "COLUMN_NAMES": " SalesReasonID, Name, ReasonType, ModifiedDate"
+  }
+]

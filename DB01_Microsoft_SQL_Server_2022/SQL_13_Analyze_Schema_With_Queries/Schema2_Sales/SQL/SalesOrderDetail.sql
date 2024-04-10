@@ -156,3 +156,40 @@ GO
 /*
 This percentile allows you to understand each product's performance relative to other products in the same subcategory, irrespective of their absolute sales counts.
 */
+
+
+-- Use ufn GetTableColumns to get columns of Sales schema
+
+USE AW2022;
+GO
+
+SELECT 
+    TABLE_NAME, 
+    COLUMN_NAMES = HumanResources.ufnGetTableColumns(TABLE_NAME)
+FROM 
+    INFORMATION_SCHEMA.TABLES 
+WHERE 
+    TABLE_SCHEMA = 'Sales'
+AND 
+    TABLE_TYPE = 'BASE TABLE'
+GO 
+
+
+-- Card type preference
+
+SELECT 
+    CC.CardType,
+    COUNT(*) AS CardUsageCount
+FROM 
+    Sales.PersonCreditCard PCC
+INNER JOIN
+    Sales.CreditCard CC
+ON 
+    PCC.CreditCardID = CC.CreditCardID
+GROUP BY 
+    CC.CardType
+ORDER BY 
+    COUNT(*) DESC;
+
+
+

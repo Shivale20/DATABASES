@@ -41,6 +41,8 @@ Below is the folder structure of the current project:
 
       - [Schema1_HumanResources](./DB01_Microsoft_SQL_Server_2022/SQL_13_Analyze_Schema_With_Queries/Schema1_HumanResources)
 
+    - [SQL_14_DataTypes](./DB01_Microsoft_SQL_Server_2022/SQL_14_DataTypes)
+
 
 
 
